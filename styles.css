@@ -1,0 +1,91 @@
+section {
+  padding-top: 10px;
+}
+
+/* Navbar */
+.navbar {
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Showcase */
+.bg-dark.text-light.text-center {
+  padding: 5% 0;
+}
+
+#home {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Seid2 image styles */
+#landing-pic {
+  border: 5px solid greenyellow;
+  height: 500px;
+  width: 500px;
+}
+
+.seid {
+  color: green;
+}
+
+.ahmed {
+  color: yellow;
+}
+
+.white-bg {
+  background-color: white;
+  border: 3px solid yellow;
+  padding: 7px;
+  text-align: center;
+}
+
+.yellow-text {
+  color: yellow;
+}
+
+/* About Me */
+#aboutme {
+  background-color: #e9ecef;
+  padding: 30px 15px;
+}
+
+/* Schedule */
+#schedule {
+  background-color: #e9ecef;
+  padding: 30px 15px;
+}
+
+/* Table on smaller screens */
+@media (max-width: 767px) {
+  #schedule table {
+    font-size: 12px;
+  }
+}
+
+/* Tablet styles */
+@media (min-width: 768px) and (max-width: 991px) {
+  .bg-dark.text-light.text-center {
+    padding: 10% 0;
+  }
+
+  #aboutme,
+  #schedule {
+    padding: 50px 15px;
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 992px) {
+  .bg-dark.text-light.text-center {
+    padding: 5% 0;
+  }
+
+  #aboutme,
+  #schedule {
+    padding: 50px 0;
+  }
+}

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+      <div class="container">
+        <a href="#" class="navbar-brand">
+          <img
+            src="image/seid.png"
+            alt="Seid Logo"
+            class="img-fluid"
+            style="max-height: 60px"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a href="#aboutme" class="nav-link">ABOUT ME</a>
+            </li>
+            <li class="nav-item">
+              <a href="#schedule" class="nav-link">SCHEDULE</a>
+            </li>
+            <li class="nav-item">
+              <a href="#hobbies" class="nav-link">HOBBIES</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Showcase-->
+    <section
+      id="home"
+      class="bg-light text-light text-center p-5"
+      style="background-image: url('image/ndsu.jpg')"
+    >
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div class="text-start">
+            <h1 class="text-black display-1 fw-bold mb-4">
+              <span class="seid">Seid</span> <span class="ahmed">Ahmed</span>
+            </h1>
+            <h2 class="text-black mb-3 white-bg">
+              Aspiring Software Developer
+            </h2>
+            <h5 class="text-black mb-4 white-bg yellow-text">
+              Currently Studying Computer Science <br />
+              at
+              <a
+                href="https://www.ndsu.edu/"
+                class="text-decoration-none ndsu-link"
+                >North Dakota State University</a
+              >
+            </h5>
+          </div>
+
+          <img
+            id="landing-pic"
+            src="image/seid2.png"
+            alt="seid pic"
+            class="img-fluid rounded-circle"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="aboutme" class="p-5 bg-light">
+      <div
+        class="container border rounded p-4 text-justify"
+        style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1)"
+      >
+        <h2 class="text-center">About Me</h2>
+
+        <div class="row">
+          <!-- Left column TXT -->
+          <div class="col-md-6">
+            <p>
+              I was born and raised in the vibrant landscapes of Ethiopia, where
+              my journey with technology began. From my early childhood, a
+              profound passion for the ever-evolving world of technology sparked
+              within me. This fascination fueled my determination to pursue a
+              path in the realm of computer science. Currently enrolled as a
+              junior at North Dakota State University, I am actively engaged in
+              learning and honing my skills in this dynamic field. Majoring in
+              computer science, I am delving into a diverse range of programming
+              languages, including HTML, CSS, JavaScript, Java, Django, PHP, C#,
+              and SQL. Additionally, I'm exploring frameworks such as Bootstrap
+              and continually embracing new technologies to expand my skill set.
+            </p>
+          </div>
+
+          <!-- Right column TXT -->
+          <div class="col-md-6">
+            <p>
+              My academic pursuits align with a future vision to become a
+              proficient software developer and entrepreneur. The challenges and
+              intricacies of computer science drive me, and I am committed to
+              making a meaningful impact in the tech industry. As I navigate the
+              exciting path of learning and growth, my ambitions are not limited
+              to academia. Beyond coding and algorithms, I find joy in exploring
+              diverse cultures, broadening my perspectives, and embracing the
+              beauty of innovation. Join me on this journey, where a childhood
+              passion evolves into a lifelong pursuit of knowledge and success.
+              Together, let's shape a future where technology meets creativity.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- schedule table -->
+    <section id="schedule" class="p-5">
+      <div class="container">
+        <h2 class="text-center mb-4">My Schedule</h2>
+
+        <div class="table-responsive">
+          <table class="table table-bordered table-striped">
+            <thead>
+              <tr class="table-dark">
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">8:00 AM - 8:50 AM</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">9:00 AM - 9:50 AM</th>
+                <td>HDFS 357</td>
+                <td></td>
+                <td>HDFS 357</td>
+                <td></td>
+                <td>HDFS 357</td>
+              </tr>
+              <tr>
+                <th scope="row">10:00 AM - 10:50 AM</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">11:00 AM - 11:50 AM</th>
+                <td>CSCI 161</td>
+                <td>CSCI 161</td>
+                <td>CSCI 161</td>
+                <td>CSCI 161</td>
+                <td>CSCI 161</td>
+              </tr>
+              <tr>
+                <th scope="row">12:00 PM - 12:50 PM</th>
+                <td>CSCI 313</td>
+                <td></td>
+                <td>CSCI 313</td>
+                <td></td>
+                <td>CSCI 313</td>
+              </tr>
+              <tr>
+                <th scope="row">1:00 PM - 1:50 PM</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">2:00 PM - 2:50 PM</th>
+                <td>CSCI 371</td>
+                <td></td>
+                <td>CSCI 371</td>
+                <td></td>
+                <td>CSCI 371</td>
+              </tr>
+              <tr>
+                <th scope="row">3:00 PM - 3:50 PM</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">4:00 PM - 4:50 PM</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">5:00 PM - 5:50 PM</th>
+                <td></td>
+                <td>CSCI 222</td>
+                <td></td>
+                <td>CSCI 222</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">6:00 PM - 6:15 PM</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hobbies section -->
+    <section id="hobbies" class="p-5 bg-light">
+      <div class="container text-center">
+        <h2 class="mb-4">My Hobbies and Favorites</h2>
+        <div class="row">
+          <!-- Left side -->
+          <div class="col-md-6 mb-4 text-start border-end-0">
+            <h3 class="mb-3">Hobbies</h3>
+            <div class="border border-2 p-2">
+              <ol>
+                <li>Reading</li>
+                <li>Soccer</li>
+                <li>Cooking</li>
+                <li>Hiking</li>
+                <li>Coding</li>
+                <li>Traveling</li>
+                <li>Learning new technologies</li>
+              </ol>
+            </div>
+          </div>
+
+          <!-- Right side -->
+          <div class="col-md-6 text-start mb-4">
+            <h3 class="mb-3">Favorites</h3>
+
+            <div class="border border-2 p-2 mb-3">
+              <h5>Movies:</h5>
+              <ul>
+                <li>Titanic</li>
+                <li>Rush Hours</li>
+                <li>Wakanda</li>
+              </ul>
+            </div>
+
+            <div class="border border-2 p-2 mb-3">
+              <h5>Books:</h5>
+              <ul>
+                <li>Think and Grow Rich</li>
+                <li>Rich Dad Poor Dad</li>
+                <li>The Richest Man in Babylon</li>
+              </ul>
+            </div>
+
+            <div class="border border-2 p-2">
+              <h5>Websites:</h5>
+              <ul>
+                <li><a href="https://www.w3schools.com/">W3Schools</a></li>
+                <li><a href="https://www.inforum.com/">Inforum Fargo</a></li>
+                <li><a href="https://www.wikipedia.org/">Wikipedia</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light text-center py-3">
+      <p>&copy; 2024 Seid Ahmed. All rights reserved.</p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
